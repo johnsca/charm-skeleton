@@ -1,0 +1,9 @@
+name: skeleton
+summary: A skeleton charm using the operator framework
+description: A skeleton charm using the operator framework
+maintainers:
+  - 'Cory Johns <johnsca@gmail.com>'
+tags:
+  - examples
+series:
+  - bionic
