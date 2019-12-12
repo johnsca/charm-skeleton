@@ -16,7 +16,7 @@ class SkeletonCharm(CharmBase):
 
     def on_install(self, event):
         self.state.installed = True
-        self.framework.model.unit.status = ActiveStatus('ready')
+        self.framework.model.unit.status = ActiveStatus()
 
 
 if __name__ == '__main__':
