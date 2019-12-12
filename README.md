@@ -12,3 +12,6 @@ You can then deploy the charm:
 ```
 juju deploy .
 ```
+
+You can sync subsequent changes from the framework by running the `pip`
+command again with `--upgrade`.
